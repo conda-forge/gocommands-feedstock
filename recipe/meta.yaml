@@ -1,5 +1,5 @@
 {% set name = "gocommands" %}
-{% set version = "0.7.17" %}
+{% set version = "0.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cyverse/gocommands/archive/v{{ version }}.tar.gz
-  sha256: 301ab74431a4b5c1559f3c3488965b9053bb7fbccd151d6c499178ea7e3edc44
+  sha256: 9b9bbc34484413b16af45435258a4a0d7bf33e678718c12bdfc981577da058a1
 
 build:
   skip: true  # [win]
@@ -31,7 +31,7 @@ about:
     pure Go language, it has no dependencies.
   license: BSD-3-Clause
   license_family: BSD
-  license_file: 
+  license_file:
     - LICENSE
     - THIRDPARTY_LICENSES
   doc_url: https://github.com/cyverse/gocommands
