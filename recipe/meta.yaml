@@ -1,5 +1,5 @@
 {% set name = "gocommands" %}
-{% set version = "0.12.3" %}
+{% set version = "0.12.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cyverse/gocommands/archive/v{{ version }}.tar.gz
-  sha256: d6938dc9b4a32c599cd5650bcb8ff99fcdc82f7750978933d30d0d8384a8d8cd
+  sha256: 0d737bb0a1cb42d21e53a990e8af0e33dc0c71f9914590fd6ec4a0ed85e13c16
 
 build:
   skip: true  # [win]
